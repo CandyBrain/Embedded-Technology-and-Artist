@@ -1,0 +1,43 @@
+function doGet(e) { 
+  Logger.log(JSON.stringify(e));
+
+  var result = { status: 'Ok' };
+
+  if (typeof e.parameter == 'undefined') {
+    result.status = 'No Parameters';
+  } else {
+    var sheet_id = '1qc9ND7cO3mAGIjDTPpqzOySRi3emDDTJoFQfesG1eEM'; 	// Spreadsheet ID
+    var sheet = SpreadsheetApp.openById(sheet_id).getActiveSheet();
+
+    var rowData = [];
+    rowData[0] = new Date(); // Current timestamp
+
+
+    for (var param in e.parameter) {
+      Logger.log('In for loop, param=' + param);
+      var value = stripQuotes(e.parameter[param]);
+      Logger.log(param + ':' + e.parameter[param]);
+
+      switch (param) {
+        case 'Cds':
+          rowData[1] = value; 
+          result.status = 'Written on column B';
+          break;
+        default:
+          result.status = "unsupported parameter";
+      }
+    }
+
+    Logger.log(JSON.stringify(rowData));
+    
+    // Modify here: Update a specific cell (e.g., B2)
+    sheet.getRange("B2").setValue(rowData[1]);
+    sheet.getRange("A2").setValue(rowData[0]);  // Optional: Update timestamp in A2
+  }
+
+  return ContentService.createTextOutput(JSON.stringify(result)).setMimeType(ContentService.MimeType.JSON);
+}
+
+function stripQuotes(value) {
+  return value.replace(/^["']|['"]$/g, "");
+}
