@@ -1,4 +1,5 @@
-![Logo_Candybrain_without_Candy](https://github.com/user-attachments/assets/ed4bf7b9-521c-4e8e-a836-3c8585f571fd)
+
+![Logo_Candybrain_316x90](https://github.com/user-attachments/assets/bf6e00bc-d4dc-469c-8ab6-77fac20e1db5)
 
 # joe
 
