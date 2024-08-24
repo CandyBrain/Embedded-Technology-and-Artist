@@ -1,10 +1,7 @@
-1. 제목: Google Sheets를 사용한 Data monitoring 
-
-2. 파일명: Ex_THM_GoogleSheets.ino
-
-3. 날짜: 2024.0824
-
-4. 작성자: Candybrain 신동욱
+## 1. 제목: Google Sheets를 사용한 Data monitoring 
+## 2. 파일명: Ex_THM_GoogleSheets.ino
+## 3. 날짜: 2024.0824
+## 4. 작성자: Candybrain 신동욱
 
 5. 설명
 본 코드는 구글시트의 단일셀에 ESP32의 I2C 포트에 연결된 SHT31센서의 온도 값과 시간을 지속적으로 업데이트 하는 예제코드 입니다.
