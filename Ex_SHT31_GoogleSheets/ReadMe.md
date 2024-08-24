@@ -8,7 +8,7 @@
 <br>
 
 
-# Lecture #1 ESP32와 연결되 SHT31데이터의 Google Sheets로의 전송 
+# ESP32와 연결된 SHT31데이터의 Google Sheets로의 전송 
 
 A `.gitignore` magician in your command line. Joe generates `.gitignore` files from the command line for you.
 
