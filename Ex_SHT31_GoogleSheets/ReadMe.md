@@ -27,26 +27,33 @@ A `.gitignore` magician in your command line. Joe generates `.gitignore` files f
   - 작동확인
 
 
-## Features
+## Prologue
 
-- Written in uncomplicated Go (Golang)
-- No installation necessary - just use the [binary](https://github.com/karan/joe#installation).
-- Stupidly [easy to use](https://github.com/karan/joe#usage)
-- Supports all Github-supported [`.gitignore` files](https://github.com/karan/joe#list-all-available-files)
-- Works on Mac, Linux and (maybe) Windows
-- Supports other version control systems (`.hgignore`)
+- 작성 예정
 
-## Installation
+## Introduction
 
-After install, make sure to run `joe u`. This will download all `.gitignore` files in `~/joe-data/` folder.
+- 작성예정
+
+## Part1. Fingerprint의 획득
+
+## Part2. Web App ID의 획득
+
+## Part3. SpreadSheet ID의 획득
+
+## Part4. Web App 예제코드 수정
+
+## Part5. ESP32 예제코드 수정
+
+## Part6. ESP32 수정코드 컴파일 및 업로드
+- 라이브러리 추가하기
+- CP210x USB드라이버 설치하기
+- 작동확인
+
 
 ### Option 1: Binary
 
-`joe` is available for OSX (macOS), Linux and Windows.
-
-Download the latest binary from the [Releases page](https://github.com/karan/joe/releases). It's the easiest way to get started with `joe`.
-
-Make sure to add the location of the binary to your `$PATH`.
+- 작성예정
 
 ### Option 2: From source
 
