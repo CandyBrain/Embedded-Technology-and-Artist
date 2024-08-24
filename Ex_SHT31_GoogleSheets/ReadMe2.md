@@ -1,7 +1,9 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/316ae087-3841-4d35-8a22-fa5a477d0991" alt="Logo_Candybrain_without_Candy_400x89">
+</p>
 
-![Logo_Candybrain_316x90](https://github.com/user-attachments/assets/bf6e00bc-d4dc-469c-8ab6-77fac20e1db5)
 
-# joe
+# Lecture #1 Transfer of SHT31 data connected to ESP32 to Google Sheets. 
 
 A `.gitignore` magician in your command line. Joe generates `.gitignore` files from the command line for you.
 
