@@ -1,7 +1,12 @@
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/316ae087-3841-4d35-8a22-fa5a477d0991" alt="Logo_Candybrain_without_Candy_400x89">
+  <a href="https://candybrain.kr">
+    <img src="https://github.com/user-attachments/assets/316ae087-3841-4d35-8a22-fa5a477d0991" alt="Logo_Candybrain_without_Candy_400x89">
+  </a>
 </p>
+
+<br>
+<br>
 
 
 # Lecture #1 Transfer of SHT31 data connected to ESP32 to Google Sheets. 
