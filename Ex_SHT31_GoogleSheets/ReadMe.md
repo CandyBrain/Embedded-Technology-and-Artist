@@ -1,10 +1,8 @@
-
 <p align="center">
-  <a href="https://candybrain.kr">
+  <a href="https://candybrain.kr" target="_blank">
     <img src="https://github.com/user-attachments/assets/316ae087-3841-4d35-8a22-fa5a477d0991" alt="Logo_Candybrain_without_Candy_400x89">
   </a>
 </p>
-
 <br>
 <br>
 
