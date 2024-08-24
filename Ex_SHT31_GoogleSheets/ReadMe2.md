@@ -1,4 +1,3 @@
-![](http://i.imgur.com/y8g506n.png?1)
 ![Logo_Candybrain_without_Candy](https://github.com/user-attachments/assets/ed4bf7b9-521c-4e8e-a836-3c8585f571fd)
 
 # joe
