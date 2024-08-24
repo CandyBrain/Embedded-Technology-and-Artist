@@ -12,7 +12,20 @@
 
 A `.gitignore` magician in your command line. Joe generates `.gitignore` files from the command line for you.
 
-![](http://i.imgur.com/2tAksHG.gif)
+
+## Table of Contents
+- Prologue
+- Introduction
+- PART-1: Fingerprint의 획득
+- PART-2: Web App ID의 획득
+- PART-3: SpreadSheet ID의 획득
+- PART-4: Web App 기본코드 수정
+- PART-5: ESP32 기본코드 수정
+- PART-6: ESP32 소스코드 업로드하기
+  - 라이브러리 추가하기
+  - CP210x USB 드라이버 설치하기
+  - 작동확인
+
 
 ## Features
 
