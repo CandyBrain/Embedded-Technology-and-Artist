@@ -1,4 +1,4 @@
-### 1. 제목: Google Sheets를 사용한 Data monitoring 
+1. 제목: Google Sheets를 사용한 Data monitoring 
 
 2. 파일명: Ex_THM_GoogleSheets.ino
 
