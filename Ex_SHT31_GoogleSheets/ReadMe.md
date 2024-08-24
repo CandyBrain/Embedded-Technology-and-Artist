@@ -28,27 +28,47 @@ A `.gitignore` magician in your command line. Joe generates `.gitignore` files f
 
 
 ## Prologue
+- 이 강좌 수강을 위해서 3개의 파일이 필요
+  - Ex_THM_GoogleSheets.ino: ESP32에서 온습도 센서값의 온도값을 읽고 Google Web App으로 전송하는 코드
+  - Apps_Script.txt: ESP32에서 받은 데이터를 처리해서 SpreadSheet의 지정된 셀로 전송하는 코드, WebApp에 사용될 스크립트, txt 파일의 내용을 복사하여 사용예정
+    Google Sheets의 단일 셀에서 지속적으로 온도값이 업데이트되는 예제코드
+  - Apps_Script2.txt
+    ESP32에서 받은 데이터를 처리해서 SpreadSheet의 지정된 셀로 전송하는 코드
+    WebApp에 사용될 스크립트, txt 파일의 내용을 복사하여 사용예정
+    Google Sheets에서 입력되는 데이터들이 지속적으로 쌓이는 예제코드
 
-- 작성 예정
+- **certificate.pem**
+    
+    fingerprint를 얻기 위해 필요한 google 인증서 파일입니다. fingerprint 획득시 만들 예정입니다.
+- 본 폴더에서 파일을 다운로드 받으시면 됩니다. 
+- certification.pem 은 fingerprint 획득시 만들 예정입니다.
+
 
 ## Introduction
 
 - 작성예정
 
 ## Part1. Fingerprint의 획득
+- 
 
 ## Part2. Web App ID의 획득
+-
 
 ## Part3. SpreadSheet ID의 획득
+- 
 
 ## Part4. Web App 예제코드 수정
+- 
 
 ## Part5. ESP32 예제코드 수정
+- 
 
 ## Part6. ESP32 수정코드 컴파일 및 업로드
 - 라이브러리 추가하기
 - CP210x USB드라이버 설치하기
 - 작동확인
+
+
 
 
 ### Option 1: Binary
