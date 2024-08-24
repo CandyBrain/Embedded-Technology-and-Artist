@@ -11,3 +11,4 @@ ESP32 Dev Module에서 작동합니다.
 DFRobot_SHT3x-master
 
 7. GitHub
+https://github.com/CandyBrain/Embedded-Technology-and-Artist/tree/main/Ex_DHT11_basic
