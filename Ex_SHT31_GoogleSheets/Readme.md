@@ -4,8 +4,9 @@
 ### 4. 작성자: Candybrain 신동욱
 ### 5. 설명
 본 코드는 구글시트의 단일셀에 ESP32의 I2C 포트에 연결된 SHT31센서의 온도 값과 시간을 지속적으로 업데이트 하는 예제코드 입니다.
-### 6. 핵심데이
-아래의 세가지의 데이터를 획득해야만 정상적인 작동이 가능합니다.
+### 6. 핵심데이터
+세가지의 데이터를 획득해야만 정상적인 작동이 가능합니다.
+
 
 (1) fingerprint = "69:46:8B:B9:19:91:49:4C:E8:9B:A4:EC:A2:C4:A2:40:B0:54:E5:CD:06:7C:CE:BE:DC:88:F2:7C:10:56:F7:F8"
 Google Sheets에서 웹 앱과 연결하기 위한 finger print는 고유 식별자를 사용하여 
@@ -24,3 +25,5 @@ https://docs.google.com/spreadsheets/d/1qc9ND7cO3mAGIjDTPpqzOySRi3emDDTJoFQfesG1
 
 아래 부분이 sheet id 입니다. 
 1qc9ND7cO3mAGIjDTPpqzOySRi3emDDTJoFQfesG1eEM
+
+
